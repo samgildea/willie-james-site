@@ -12,7 +12,6 @@ const GigsRow = styled(Row)`
 function About() {
   return (
     <Container>
-      <h1></h1>
       <GigsRow>
         <Col xs={12} lg={6}>
           <GigsImage
