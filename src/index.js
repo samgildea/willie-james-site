@@ -13,7 +13,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Gigs from "./pages/Gigs";
 import About from "./pages/About";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const client = new ApolloClient({
   link: new HttpLink({

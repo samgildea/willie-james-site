@@ -1,9 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import { Container, Jumbotron, Row, Col, Button } from "react-bootstrap";
-import { Query } from "react-apollo";
-import gql from "graphql-tag";
-import moment from "moment";
+
 import styled from "styled-components";
 
 const Hero = styled(Jumbotron)`
@@ -35,17 +32,17 @@ function App() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <Row>
+        <ImageRow>
           <ImageCol>
-            <img src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
           </ImageCol>
           <ImageCol>
-            <img src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
           </ImageCol>
           <ImageCol>
-            <img src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
           </ImageCol>
-        </Row>
+        </ImageRow>
       </Container>
       <Jumbotron>
         <Container>
