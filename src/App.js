@@ -7,6 +7,10 @@ const Hero = styled(Jumbotron)`
   height: 50vh;
 `;
 
+const ContactCTA = styled(Jumbotron)`
+  margin-bottom: 0 !important;
+`;
+
 const ImageRow = styled(Row)``;
 
 const ImageCol = styled(Col)`
@@ -44,14 +48,14 @@ function App() {
           </ImageCol>
         </ImageRow>
       </Container>
-      <Jumbotron>
+      <ContactCTA>
         <Container>
           <h1>Book Willie James Band</h1>
           <p>
             <Button variant="primary">Contact</Button>
           </p>
         </Container>
-      </Jumbotron>
+      </ContactCTA>
     </>
   );
 }
