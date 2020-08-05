@@ -1,5 +1,6 @@
 import React from "react";
-import { Container, Jumbotron, Row, Col, Button } from "react-bootstrap";
+// eslint-disable-next-line
+import { Container, Jumbotron, Row, Col,  Button } from "react-bootstrap";
 
 import styled from "styled-components";
 
@@ -38,22 +39,30 @@ function App() {
         </p>
         <ImageRow>
           <ImageCol>
-            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img
+              alt="placeholder"
+              src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png"
+            />
           </ImageCol>
           <ImageCol>
-            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img
+              alt="placeholder"
+              src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png"
+            />
           </ImageCol>
           <ImageCol>
-            <img alt="placeholder" src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png" />
+            <img
+              alt="placeholder"
+              src="https://lunawood.com/wp-content/uploads/2018/02/placeholder-image.png"
+            />
           </ImageCol>
         </ImageRow>
       </Container>
       <ContactCTA>
         <Container>
           <h1>Book Willie James Band</h1>
-          <p>
-            <Button variant="primary">Contact</Button>
-          </p>
+
+          {/* <Button variant="primary">Contact</Button> */}
         </Container>
       </ContactCTA>
     </>
